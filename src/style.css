@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 100;
+        src: url('../fonts/outfit-v11-latin-100.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/outfit-v11-latin-regular.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        src: url('../fonts/outfit-v11-latin-600.woff2') format('woff2');
+    }
+}

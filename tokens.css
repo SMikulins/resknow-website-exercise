@@ -1,0 +1,82 @@
+:root {
+	/* Colour */
+	--color-white: #fff;
+	--color-black: #030712;
+	--color-primary: #ed8a30;
+	--color-primary-contrast: #ffefe0;
+	--color-secondary: #be185d;
+	--color-secondary-contrast: #fce7f3;
+	--color-highlight: #eab308;
+	--color-negative: #ed4730;
+	--color-positive: #82d715;
+	--color-link-base: #1d4ed8;
+	--color-gray-900: #181819;
+	--color-gray-800: #28292d;
+	--color-gray-700: #393a42;
+	--color-gray-600: #4a4c57;
+	--color-gray-500: #5b5e6c;
+	--color-gray-400: #858895;
+	--color-gray-300: #b3b5c2;
+	--color-gray-200: #d7d9e3;
+	--color-gray-100: #f0f1f6;
+
+	/* Shadow */
+	--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+	--shadow-default: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+	--shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+	--shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+
+	/* Font Family */
+	--font-base: 'Outfit', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif,
+		Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+
+	/* Font Size */
+	--size-xs: clamp(0.65rem, 0.5859rem + 0.2735vw, 0.75rem);
+	--size-sm: clamp(0.75rem, 0.6987rem + 0.2188vw, 0.83rem);
+	--size-base: clamp(0.75rem, 0.5897rem + 0.6838vw, 1rem);
+	--size-lg: clamp(0.83rem, 0.5928rem + 1.012vw, 1.2rem);
+	--size-xl: clamp(1rem, 0.7179rem + 1.2034vw, 1.44rem);
+	--size-2xl: clamp(1.2rem, 0.8615rem + 1.4441vw, 1.728rem);
+	--size-3xl: clamp(1.44rem, 1.0336rem + 1.734vw, 2.074rem);
+	--size-4xl: clamp(1.728rem, 1.2408rem + 2.0786vw, 2.488rem);
+	--size-5xl: clamp(2.074rem, 1.4894rem + 2.4944vw, 2.986rem);
+	--size-6xl: clamp(2.986rem, 2.5658rem + 1.7927vw, 4rem);
+
+	/* Font Weight */
+	--weight-light: 200;
+	--weight-normal: 400;
+	--weight-bold: 600;
+
+	/* Line Height */
+	--leading-none: 1;
+	--leading-tight: 1.1;
+	--leading-base: 1.65;
+	--leading-loose: 1.9;
+
+	/* Letter Spacing */
+	--tracking-tight: -0.025em;
+	--tracking-base: auto;
+	--tracking-wide: 0.05em;
+	--tracking-loose: 0.1em;
+
+	/* Border Radius */
+	--radius-xs: 0.5rem;
+	--radius-sm: 0.75rem;
+	--radius-default: 1rem;
+	--radius-md: 2rem;
+	--radius-lg: 3rem;
+	--radius-full: 99999px;
+
+	/* Spacing */
+	--space-px: 0.06rem;
+	--space-half: 0.125rem;
+	--space-xs: clamp(0.5rem, 0.3397rem + 0.6838vw, 0.75rem);
+	--space-sm: clamp(0.75rem, 0.5428rem + 0.884vw, 1.25rem);
+	--space-md: clamp(1rem, 0.5856rem + 1.768vw, 2rem);
+	--space-lg: clamp(1.5rem, 0.8785rem + 2.6519vw, 3rem);
+	--space-xl: clamp(2rem, 1.1713rem + 3.5359vw, 4rem);
+	--space-2xl: clamp(2.5rem, 1.4641rem + 4.4199vw, 5rem);
+	--space-3xl: clamp(3rem, 1.7569rem + 5.3039vw, 6rem);
+}
